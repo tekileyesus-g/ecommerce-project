@@ -24,10 +24,11 @@ export function CheckoutPage({ cart, loadCart }) {
     };
 
     fetchCheckoutData();
-  }, [cart]);   
+  }, [cart]);
 
   return (
     <>
+   
       <title>Checkout</title>
 
       <div className="checkout-header">
