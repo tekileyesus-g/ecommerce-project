@@ -28,7 +28,6 @@ export function CheckoutPage({ cart, loadCart }) {
 
   return (
     <>
-   
       <title>Checkout</title>
 
       <div className="checkout-header">
@@ -64,7 +63,7 @@ export function CheckoutPage({ cart, loadCart }) {
             loadCart={loadCart}
           />
 
-          <PaymentSummary paymentSummery={paymentSummery} />
+          <PaymentSummary paymentSummery={paymentSummery} loadCart={loadCart} />
         </div>
       </div>
     </>
